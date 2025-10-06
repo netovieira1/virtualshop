@@ -3,10 +3,10 @@ spring:
     name: VirtualShop
 
   datasource:
-    url: jdbc:mysql://localhost:5432/virtualshop
+    url: jdbc:postgresql://localhost:5431/virtualshop
     username: postgres
     password: postgres
-    driver-class-name: com.postgresql.Driver
+    driver-class-name: org.postgresql.Driver
 
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
