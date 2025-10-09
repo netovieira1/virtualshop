@@ -21,5 +21,6 @@ public class ItemPedido {
     private double precoUnitario;
 
     @ManyToOne
+    @JoinColumn(name = "pedido_id")
     private Pedido pedido;
 }

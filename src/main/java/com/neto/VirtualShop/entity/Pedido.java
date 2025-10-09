@@ -21,5 +21,6 @@ public class Pedido {
     private double total;
 
     @ManyToOne
+    @JoinColumn(name = "cliente_id")
     private Cliente cliente;
 }

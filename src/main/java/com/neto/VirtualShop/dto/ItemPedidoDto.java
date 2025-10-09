@@ -1,0 +1,16 @@
+package com.neto.VirtualShop.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+public class ItemPedidoDto {
+
+    private Long id;
+    private int quantidade;
+    private double precoUnitario;
+    private Long produtoId;
+}
